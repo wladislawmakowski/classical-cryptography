@@ -1,4 +1,5 @@
-//! ROT-13
+#include "../headers/rot13.h"
+
 char encrypt(char x)
 {
 		if('A' <= x && x <= 'Z')
