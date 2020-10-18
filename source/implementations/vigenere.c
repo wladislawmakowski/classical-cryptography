@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "../headers/vigenere.h"
 
 static char _alpha[89] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-=~!@#$%^&*()_+{};':,./<>? ";
 static int k1, k2;
