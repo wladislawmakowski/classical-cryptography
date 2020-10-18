@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 #include "../headers/vigenere.h"
 
+=======
+>>>>>>> 92331fc7ca7636639e9874411bded1887ed88ddd
 static char _alpha[89] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-=~!@#$%^&*()_+{};':,./<>? ";
 static int k1, k2;
 
