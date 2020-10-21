@@ -54,21 +54,3 @@ void polybius
 		*to++ = encrypt(*p_from, p_alpha, p_matrix);
 	*to = '\0';
 }
-
-int main()
-{
-	//char m[61] = "Makowski Wladislaw Nikolaiewicz 25.03.2003 Rudny, Kazachstan";
-	char m[61] = {24, 39, 51, 55, 64, 59, 51, 48, 32, 35, 52, 39, 43, 48, 59, 52, 39, 64, 32, 25, 48, 51, 55, 52, 39, 48, 44, 64, 48, 42, 67, 32, 71, 74, 46, 68, 72, 46, 71, 68, 68, 72, 32, 29, 62, 43, 54, 66, 44, 32, 22, 39, 67, 39, 42, 47, 59, 61, 39, 54, 0};
-	char c[61];
-	int i;
-
-	polybius(-1, m, c);
-
-	for(i = 0;i < 61;i++)
-	{
-		printf("%c", c[i]);
-	}
-	printf("\n");
-
-	return 0;
-}
